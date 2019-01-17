@@ -3,7 +3,7 @@
 #A script that complements eYTd to move the files to the home folder of the user
 
 USER_FOLDER=$HOME
-DOWNLOADS_FOLDER="$HOME/eYTd"
+DOWNLOADS_FOLDER="$HOME/eYTdownloads"
 AUDIO="$DOWNLOADS_FOLDER/Audio"
 VIDEO="$DOWNLOADS_FOLDER/Video"
 
