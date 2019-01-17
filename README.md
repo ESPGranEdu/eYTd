@@ -48,3 +48,6 @@ To install the packages listed in requirements.txt, you just simply type into a 
 sudo pip3 install -r requirements.txt
 ```
 Make sure that requirements.txt it's in the eYDd's folder
+
+## Installing in Windows
+Soon will be added the cross-platform usage of the program (if I can do that, more o less...)
