@@ -8,23 +8,24 @@ By now, you will need to execute this program:
 * Python 3.x
 * A Linux distro, because it has some bash scripts that actually the main program needs to run properly
 * Python pip, a tool to download the packages listed in the requierements.txt file
+* FFMpeg, a cross-platform solution to convert audio and also stream
 
 ### Installing Python
 It's possible that you already have Python installed in your system, but In case you don't have Python installed, just follow the next instuctions:
 ```
-sudo apt install python3
+sudo apt install python3 ffmpeg
 ```
 * For Fedora based systems:
 ```
-sudo dnf install python3
+sudo yum install python3 ffmpeg
 ```
 * For Suse based systems:
 ```
-sudo zypper install python3
+sudo zypper install python3 ffmpeg
 ```
 * For Arch based systems:
 ```
-sudo pacman -S python3
+sudo pacman -S python3 ffmpeg
 ```
 ### Installing core packages
 If you don't have pip installed, run this command before the below one:
