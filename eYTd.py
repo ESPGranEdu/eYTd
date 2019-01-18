@@ -10,7 +10,7 @@ import time
 def moving_script():
     """ A very simple UNIX Script that moves all the downloaded files into the user's home folder.
     If the folder doesn't exist, creates the folder"""
-    os.system("bash $HOME/Documentos/Programasion/PROJECTOe/moving_script.sh")
+    os.system("bash $HOME/eYTd/moving_script.sh")
 
 def url_generator(term):
 
