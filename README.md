@@ -38,6 +38,6 @@ Before you enter the URL, you'll be prompt with and warning telling if you want 
 ## Examples
 Download a video with his audio source converted to .flac format
 ![ejemplo1](https://user-images.githubusercontent.com/46658066/53695893-68ef3380-3dc1-11e9-9724-bb9ae389be92.gif)
-Download a audio source from a playlist and converting it into .flac format
+Download an audio source from a playlist and converting it into .flac format
 ![ejemplo2](https://user-images.githubusercontent.com/46658066/53699286-cba6f600-3de6-11e9-9077-6a4e0718a1f9.gif)
 
