@@ -12,42 +12,28 @@ By now, you will need to execute this program:
 ### Installing Python
 It's possible that you already have Python installed in your system, but In case you don't have Python installed, just follow the next instuctions:
 ```
-sudo apt install python3 ffmpeg
-```
-* For Fedora based systems:
-```
-sudo yum install python3 ffmpeg
-```
-* For Suse based systems:
-```
-sudo zypper install python3 ffmpeg
-```
-* For Arch based systems:
-```
-sudo pacman -S python3 ffmpeg
+Debian --> sudo apt install python3 ffmpeg
+Fedora --> sudo yum install python3 ffmpeg
+Suse   --> sudo zypper install python3 ffmpeg
+Arch   --> sudo pacman -S python3 ffmpeg
 ```
 ### Installing core packages
-If you don't have pip installed, run this command before the below one:
-```
-sudo apt install python3-pip
-```
-* For Fedora based systems:
-```
-sudo dnf install python3-pip
-```
-* For Suse based systems:
-```
-sudo zypper install python3-pip
-```
-* For Arch based systems:
-```
-sudo pacman -S python-pip
-```
 To install the packages listed in requirements.txt, you just simply type into a terminal the following command:
 ```
 sudo pip3 install -r requirements.txt
 ```
 Make sure that requirements.txt it's in the eYTd's folder
 
-## Installing in Windows
-Soon will be added the cross-platform usage of the program (if I can do that, more o less...)
+## Usage
+The program mainly has 4 options to chose:
+
+* **Download Audio file from a URL (opt_1) -->** Search the video in the given URL and downloads the audio source from it.
+* **Download Video with his audio source (opt_2) -->** Same as opt_1 but downloads the video source too.
+* **Download Video source (opt_3) -->** Search the video in the given URl and downloads the audio source from it.
+* **Search in Youtube by a given term (url_generator, name_generator) -->** Simply searchs from youtube and parse the url and name. It's limited to display only 5 video.
+
+Before you enter the URL, you'll be prompt with and warning telling if you want to enable ***Playlist Mode***, means that by enabling this you can download an entire playlist whitout needing to enter every single URL.
+
+## Example
+Download a video with his audio source converted to .flac format
+![ejemplo1](https://user-images.githubusercontent.com/46658066/53695893-68ef3380-3dc1-11e9-9724-bb9ae389be92.gif)
