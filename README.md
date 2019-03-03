@@ -5,10 +5,9 @@ A CLI python based program that allows you to download either video or sound fil
 ## Requirements
 By now, you will need to execute this program:
 
-* Python 3.x
-* A Linux distro, because it has some bash scripts that actually the main program needs to run properly
-* Python pip, a tool to download the packages listed in the requierements.txt file
-* FFMpeg, a cross-platform solution to convert audio and also stream
+* [Python 3.x](https://www.python.org/)
+* [FFMpeg](https://www.ffmpeg.org/), to convert both audio and video
+* [Youtube-DL](https://rg3.github.io/youtube-dl/) to fetch videos from multiples sources... and also from Youtube, was created for that ¯\_(ツ)_/¯
 
 ### Installing Python
 It's possible that you already have Python installed in your system, but In case you don't have Python installed, just follow the next instuctions:
@@ -48,7 +47,7 @@ To install the packages listed in requirements.txt, you just simply type into a 
 ```
 sudo pip3 install -r requirements.txt
 ```
-Make sure that requirements.txt it's in the eYDd's folder
+Make sure that requirements.txt it's in the eYTd's folder
 
 ## Installing in Windows
 Soon will be added the cross-platform usage of the program (if I can do that, more o less...)
