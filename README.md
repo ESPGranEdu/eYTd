@@ -8,6 +8,7 @@ By now, you will need to execute this program:
 * [Python 3.x](https://www.python.org/)
 * [FFMpeg](https://www.ffmpeg.org/), to convert both audio and video
 * [Youtube-DL](https://rg3.github.io/youtube-dl/) to fetch videos from multiples sources... and also from Youtube, was created for that ¯\_(ツ)_/¯
+* For Linux&Mac users, you should give executions permissions to the **moving_script.sh** 
 
 ### Installing Python
 It's possible that you already have Python installed in your system, but In case you don't have Python installed, just follow the next instuctions:
