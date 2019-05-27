@@ -18,10 +18,13 @@ Fedora --> sudo yum install python3 ffmpeg
 Suse   --> sudo zypper install python3 ffmpeg
 Arch   --> sudo pacman -S python3 ffmpeg
 ```
+On Windows you can go to the [official website](https://www.python.org) in order to install the most recent version of Python (or the version you prefer)
+
 ### Installing core packages
 To install the packages listed in requirements.txt, you just simply type into a terminal the following command:
 ```
-sudo pip3 install -r requirements.txt
+Linux and OSX --> sudo pip3 install -r requirements.txt
+Windwos       --> pip install -r requirements.txt     
 ```
 Make sure that requirements.txt it's in the eYTd's folder
 
@@ -31,7 +34,7 @@ The program mainly has 4 options to chose:
 * **Download Audio file from a URL (opt_1) -->** Search the video in the given URL and downloads the audio source from it.
 * **Download Video with his audio source (opt_2) -->** Same as opt_1 but downloads the video source too.
 * **Download Video source (opt_3) -->** Search the video in the given URl and downloads the audio source from it.
-* **Search in Youtube by a given term (url_generator, name_generator) -->** Simply searchs from youtube and parse the url and name. It's limited to display only 5 video.
+* **Search in Youtube by a given term (url_generator, name_generator) -->** Simply searchs from youtube and parse the url and name. It's limited to display only 5 videos (you can increase the limit in the source code).
 
 Before you enter the URL, you'll be prompt with and warning telling if you want to enable ***Playlist Mode***, means that by enabling this you can download an entire playlist whitout needing to enter every single URL.
 
