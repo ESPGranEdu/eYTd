@@ -24,7 +24,7 @@ On Windows you can go to the [official website](https://www.python.org) in order
 To install the packages listed in requirements.txt, you just simply type into a terminal the following command:
 ```
 Linux and OSX --> sudo pip3 install -r requirements.txt
-Windwos       --> pip install -r requirements.txt     
+Windows       --> pip install -r requirements.txt     
 ```
 Make sure that requirements.txt it's in the eYTd's folder
 
