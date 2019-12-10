@@ -5,13 +5,34 @@ import youtube_dl
 import requests
 import os
 import time
+import shutil
+import glob
 #########################################################FUNCIONES#####################################################
 
 
 def moving_script():
-    """ A very simple UNIX Script that moves all the downloaded files into the user's home folder.
-    If the folder doesn't exist, creates the folder"""
-    os.system("bash ./moving_script.sh")
+    """Move all the downloaded files to the specified folder"""
+    destination = os.environ["HOME"] + "/eYTd_Downloads"
+
+    # Get all the files in the current directory
+    file_types = ("*.mkv", "*.mp4", "*.avi", "*.webm", "*.flv", "*.ogg",
+                  "*.mp3", "*.flac", "*.m4a", "*.opus", "*.vorbis", "*.wav")
+    downloaded_files = []
+
+    for ft in file_types:
+        fetched = glob.glob(ft)
+        for f in fetched:
+            downloaded_files.append(f)
+
+    # Move all the files to the destination, if the folder doesn't exist create the dest_folder
+    if not os.path.isdir(destination):
+        print(f"Creating {destination}...")
+        os.mkdir(destination)
+
+    for f in downloaded_files:
+        shutil.move(f, destination)
+
+    print(f"{len(downloaded_files)} moved to {destination}")  # Show summary
 
 
 def url_generator(term):

@@ -1,14 +1,6 @@
-
 pynacl
-
-youtube
-
 youtube_dl
-
 asyncio
-
 ytsearch
-
 bs4
-
 requests
